@@ -1,16 +1,31 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This application has used React Vite in order to run this app on your system, you need 
+to have node version 20 and above, the application uses axios and other libraries to 
+function hece you'll need to download packages while following the steps given below to 
+run the app 
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Step 1: Create a folder (if you've downloaded the backend for this before itself then open a new terminal  
+                         and follow the steps in the same folder, where you've downloaded backend.
 
-## React Compiler
+Step 2: Open the terminal and type 
+        git init 
+        The above command will initialize a git repository in your folder 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Step 3: Type (or copy-paste this command )
+        git clone https://github.com/DumplingsSushi/Frontend
 
-## Expanding the ESLint configuration
+Step 4: Type (or copy-paste this command )
+        cd Frontend 
+        This will take you to the code 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Step 5: Type (or copy-paste this command )
+        npm install
+        This will install all the required packages and libraries 
+
+Step 6: Type (or copy-paste this command )
+        npm run dev
+        This will run the project and provide a link, clicking on which will take you to the running website 
+        (in order to use the website, make sure to get the backend running to make API calls.)
+
